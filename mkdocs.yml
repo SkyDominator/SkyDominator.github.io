@@ -2,6 +2,42 @@ site_name: My Docs
 
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.expand
+  palette:
+    primary: "black"
+    accent: "light blue"
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/khy86/
+    # - icon: fontawesome/brands/github
+    #   link: https://github.com/SkyDominator
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      linenums: true
+      use_pygments: true
+      auto_title: true
+      anchor_linenums: true
+      linenums_style: pymdownx-inline
+      line_spans: __span
+  - pymdownx.details
+
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: material
+  - pymdownx.snippets:
+      check_paths: true
+      url_download: false
+      url_max_size: 33554432
+      url_timeout: 10
+    
+
   
 nav:
   - Home: index.md
