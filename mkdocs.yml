@@ -1,14 +1,19 @@
-site_name: My Docs
+site_name: A Technical Writer's Tech Blog 
+
+nav:
+  - Home: index.md
+  - About: about.md
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.tabs.sticky
 
   palette:
     primary: "black"
-    accent: "light blue"
+    accent: "blue"
 
 extra:
   social:
@@ -38,9 +43,3 @@ markdown_extensions:
       url_download: false
       url_max_size: 33554432
       url_timeout: 10
-    
-
-  
-nav:
-  - Home: index.md
-  - About: about.md
