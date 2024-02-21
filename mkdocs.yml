@@ -4,7 +4,8 @@ theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.expand
+    - navigation.tabs.sticky
+    
   palette:
     primary: "black"
     accent: "light blue"
