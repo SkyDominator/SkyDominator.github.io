@@ -5,7 +5,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    
+
   palette:
     primary: "black"
     accent: "light blue"
@@ -30,8 +30,9 @@ markdown_extensions:
 
   - pymdownx.superfences
   - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-      emoji_index: material
+
   - pymdownx.snippets:
       check_paths: true
       url_download: false
