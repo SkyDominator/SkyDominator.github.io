@@ -1,8 +1,12 @@
 site_name: A Technical Writer's Tech Blog 
 
 nav:
-  - Home: index.md
-  - About: about.md
+  - Home: 'index.md'
+  - User Guide:
+    - T1: 'a.md'
+    - T2: 'b.md'
+  - About:
+    - License: 'b.md'
 
 theme:
   name: material
