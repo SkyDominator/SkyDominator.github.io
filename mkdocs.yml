@@ -4,11 +4,11 @@ nav:
   - 블로거 소개: 'index.md'
   - 개발 프로젝트:
     - 문서 엔지니어링(Wordpress/HTML):
-      - 깨진 링크 찾기: 'blc.md'
-      - 국문 콘텐츠에서 영단어 추출하기: 'eng-word-extract.md'
-      - 특정 영단어만 인라인 포맷팅하기: 'format-eng-word.md'
+      - 깨진 링크 찾기: 'doc-eng/blc.md'
+      - 국문 콘텐츠에서 영단어 추출하기: 'doc-eng/eng-word-extract.md'
+      - 특정 영단어만 인라인 포맷팅하기: 'doc-eng/format-eng-word.md'
     - 실생활 도구:
-      - 축의금 정산 도우미: 'wedding.md'
+      - 축의금 정산 도우미: 'for-life/wedding.md'
 
 theme:
   name: material
