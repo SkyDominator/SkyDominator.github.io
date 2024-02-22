@@ -1,4 +1,6 @@
 site_name: A Technical Writer's Tech Blog 
+site_description: "Technical Writing, Document Engineering, and Life Tools"
+site_author: "Ray Kim"
 
 nav:
   - 블로거 소개: 'index.md'
@@ -12,6 +14,7 @@ nav:
 
 theme:
   name: material
+  # logo: "images/logo.png"
   custom_dir: overrides
   features:
     - navigation.tabs
