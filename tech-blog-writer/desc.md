@@ -1,1 +1,0 @@
-Writes tech blogs in Korean with code snippets in markdown.
