@@ -1,5 +1,3 @@
 ---
 comments: true
 ---
-
-TBD
