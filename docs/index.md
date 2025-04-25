@@ -1,16 +1,16 @@
 # Technical Writer RayKim's Tech Blog
 
-Hi, I'm a technical writer, Ray Kim.
+테크라이터 Ray Kim입니다.
 
 ## About myself
 
-* An IT technical writer (7 years)
+* PaaS 테크라이터 (7 years)
     * Language: Korean, English
     * Programming Language: Python, JavaScript
     * Field: AI, Blockchain, PaaS
-* A father of a 2 years old son, a locomotive of a family
-* A vibe coder
+* 2살 아들의 아빠
+* 바이브 코더
 
 ## Zen
 
-* Writing the best prompt makes your coding the vibest.
+* 좋은 코드를 짜려면 좋은 프롬프트를 입력해라.
