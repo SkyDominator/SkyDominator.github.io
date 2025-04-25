@@ -5,10 +5,9 @@ site_author: "Ray Kim"
 nav:
   - Hello World: index.md
   - Technical Writing:
-    - tw/index.md
-    - Install & Build BitNet: tw/bitnet-2025-04-25.md
+    - BitNet:
+      - Install & Build: tw/bitnet-2025-04-25.md
   - Dev:
-    - dev/index.md
 theme:
   name: material
   logo: "images/logo.png"
