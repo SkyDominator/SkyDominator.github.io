@@ -3,15 +3,12 @@ site_description: "Technical Writing, Document Engineering, and Life Tools"
 site_author: "Ray Kim"
 
 nav:
-  - 블로거 소개: 'index.md'
-  - 개발 프로젝트:
-    - 문서 엔지니어링(Wordpress/HTML):
-      - 깨진 링크 찾기: 'doc-eng/blc.md'
-      - 국문 콘텐츠에서 영단어 추출하기: 'doc-eng/eng-word-extract.md'
-      - 특정 영단어만 인라인 포맷팅하기: 'doc-eng/format-eng-word.md'
-    - 실생활 도구:
-      - 축의금 정산 도우미: 'for-life/wedding.md'
-
+  - Hello World: index.md
+  - Technical Writing:
+    - tw/index.md
+    - Install & Build BitNet: tw/bitnet-2025-04-25.md
+  - Dev:
+    - dev/index.md
 theme:
   name: material
   logo: "images/logo.png"
