@@ -14,10 +14,34 @@ theme:
   name: material
   logo: "images/logo.png"
   custom_dir: overrides
+  font:
+    text: Roboto
+    code: Roboto Mono
   features:
-    - navigation.tabs
     - navigation.tabs.sticky
-
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select #240319
+    - content.tabs.link #240319
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    # - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    # - navigation.prune
+    # - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - navigation.path
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate #240319
   palette:
     primary: "black"
     accent: "blue"
