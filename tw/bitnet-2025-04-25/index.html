@@ -874,6 +874,10 @@
 <p>저는 테크라이팅 또는 개인 개발 프로젝트에서 쓰기 위한 로컬 LLM을 찾고 있습니다. OpenAI 또는 Gemini API 호출이 필요 없고 아주 저사양 PC에서 돌릴 수 있는 로컬 LLM을 찾고 있던 중, 비트넷을 발견하고 한 번 설치해보았습니다.</p>
 <p>여러 오픈 소스 프로젝트 README.md는 불친절하거나, 오류가 있거나, 누락된 내용이 다소 존재합니다. 이번에도 마찬가지였고, <a href="https://github.com/microsoft/BitNet">BitNet Github README.md</a>를 보고 삽질한 내용을 공유해 <strong>다른 사람들이 더 쉽게 설치할 수 있으면</strong> 좋겠다는 생각이 들어 작성합니다.</p>
 <p>테크라이터이지만 이 블로그는 대충 쓰려고 하니 글에 여러 문제가 있더라도 너그러히 넘어가주세요.</p>
+<details class="note" open="open">
+<summary>Note</summary>
+<p>이 글은 2025-04-25 기준으로 작성한 글입니다. 현 시점 이후 BitNet과 서브 모듈 업데이트 여부에 따라 현재 안내한 설치 방법이 작동하지 않거나, 일부 설치 과정을 생략해야할 수도 있습니다.</p>
+</details>
 <h2 id="_3">설치 환경</h2>
 <p>아래 환경에서 설치, 구동에 성공했습니다. 그래서 <strong>아래 환경 기준으로만</strong> 안내합니다.</p>
 <ul>
@@ -964,10 +968,66 @@
 
 
 
+  
+  
 
 
 
 
+
+
+  <h2 id="__comments">Comments</h2>
+  <!-- Insert generated snippet here -->
+  <script src="https://giscus.app/client.js"
+        data-repo="SkyDominator/SkyDominator.github.io"
+        data-repo-id="R_kgDOLUqPpw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLUqPp84CdZcn"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark"
+        data-lang="ko"
+        crossorigin="anonymous"
+        async>
+</script>
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    // Set palette on initial load
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate"
+        ? "transparent_dark"
+        : "light"
+
+      // Instruct Giscus to set theme
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    // Register event handlers after documented loaded
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate"
+            ? "transparent_dark"
+            : "light"
+
+          // Instruct Giscus to change theme
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
 
                 
               </article>
